@@ -1,7 +1,6 @@
 FactoryGirl.define do
   factory :board_post, :class => 'Board::Post' do
-    name "MyString"
-text "MyString"
+    name 'Title'
+    text 'Body'
   end
-
 end
