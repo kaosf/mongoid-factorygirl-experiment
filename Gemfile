@@ -42,3 +42,7 @@ group :development, :test do
 end
 
 gem 'mongoid', '4.0.2'
+
+group :development, :test do
+  gem 'factory_girl_rails', '4.5.0'
+end
